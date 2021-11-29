@@ -1,0 +1,35 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  margin: 4px auto;
+  padding: 16px;
+
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+
+  &.complete {
+    text-decoration: line-through;
+    opacity: 0.4;
+  }
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+
+  font-size: 24px;
+  cursor: pointer;
+
+  &:first-child {
+    margin-right: 5px;
+    color: #fff;
+  }
+
+  &:last-child {
+    color: #fff;
+  }
+}
